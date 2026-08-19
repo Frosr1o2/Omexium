@@ -69,5 +69,5 @@ npm run build
 License
 
 Distributed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.
-```
-> it's an example command!
+
+> it's an example commands!
