@@ -33,15 +33,6 @@
 
 ---
 
-### Roadmap
-
-* [ ] Built-in 3D skin viewer and custom cape manager.
-* [ ] Cloud save synchronization across different devices.
-* [ ] AI-assisted crash log analyzer with actionable troubleshooting tips.
-* [ ] Multi-language UI support.
-
----
-
 ### License
 
 Distributed under the GNU General Public License v3.0 (GPL-3.0). See `LICENSE` for more information.
