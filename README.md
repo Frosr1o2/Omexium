@@ -3,7 +3,7 @@
 > **Omexium** is a modern, lightweight, and cross-platform Minecraft launcher featuring deep customization, fast load times, and native support for major authentication providers.
 
 ![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
 
 ---
@@ -39,3 +39,9 @@
 * [ ] Cloud save synchronization across different devices.
 * [ ] AI-assisted crash log analyzer with actionable troubleshooting tips.
 * [ ] Multi-language UI support.
+
+---
+
+### License
+
+Distributed under the GNU General Public License v3.0 (GPL-3.0). See `LICENSE` for more information.
