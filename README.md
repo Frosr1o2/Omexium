@@ -39,9 +39,35 @@
 
 Run via standalone AppImage, Flatpak, or build directly from source:
 
-```bash
+```
 # AppImage Execution
 chmod +x Omexium-Launcher-x86_64.AppImage
 ./Omexium-Launcher-x86_64.AppImage
+```
+macOS (Apple Silicon & Intel)
+
+    Download the latest .dmg release from the Releases tab.
+
+    Drag Omexium to your Applications folder.
+
+    Open the app (If prompted by Gatekeeper, allow the application via System Settings > Privacy & Security).
+
+Building from Source
+
+```
+# Clone the repository
+git clone [https://github.com/YourUsername/Omexium-Launcher.git](https://github.com/YourUsername/Omexium-Launcher.git)
+
+# Move to directory
+cd Omexium-Launcher
+```
+```
+# Install dependencies and build
+npm install
+npm run build
+```
+License
+
+Distributed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.
 ```
 > it's an example command!
