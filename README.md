@@ -44,4 +44,4 @@ Run via standalone AppImage, Flatpak, or build directly from source:
 chmod +x Omexium-Launcher-x86_64.AppImage
 ./Omexium-Launcher-x86_64.AppImage
 ```
-###### it's an example command!
+> it's an example command!
