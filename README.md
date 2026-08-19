@@ -1,38 +1,45 @@
 # Omexium Launcher
 
-> **Omexium** is a modern, lightweight, and cross-platform Minecraft launcher featuring deep customization, fast load times, and native support for major authentication providers.
+> **Omexium** is an open-source, high-performance Minecraft launcher engineered for seamless mod management, multi-account authorization, and cross-platform speed. Built to run effortlessly on **Linux, macOS, Windows, BSD, and ARM architectures**.
 
-![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
-![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
-![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
+![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20ARM-blue?style=for-the-badge&logo=linux)
+![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge)
 
 ---
 
-### Key Features
+### Highlights
 
-* **Multi-Account Support:** Full integration with **Microsoft Accounts**, **Ely.by** (including skins and capes support), and offline local profiles.
-* **Cross-Platform:** Built natively for Windows (10/11), macOS (Intel & Apple Silicon), and Linux (AppImage, Flatpak, and AUR).
-* **Instance Management:** Create and isolate completely custom profiles with independent Java environments, mods, and configuration files.
-* **One-Click Modloaders:** Built-in automatic setup for Forge, Fabric, Quilt, and NeoForge.
-* **Mod Repository Integration:** Browse, search, and download modpacks, mods, resource packs, and shaders directly from Modrinth and CurseForge.
-* **Smart Java Manager:** Automatically detects, downloads, and isolates the correct Java Runtime Environment (8, 17, 21+) based on the selected Minecraft version.
-* **Performance Focused:** Extremely low background RAM usage, fast game boot times, and flexible memory allocation controls.
+* **Flexible Authentication:** Native support for **Microsoft Accounts**, **Ely.by** (skins and capes), and offline local profiles with instant switching.
+* **Universal Compatibility:** Optimized for Windows (10/11), macOS (Apple Silicon & Intel), Linux (x86_64 / ARM64), and BSD systems.
+* **Isolated Instances:** Keep mods, configurations, resource packs, and save files completely segregated per game profile.
+* **One-Click Modloader Installer:** Native support for **NeoForge**, **Fabric**, **Forge**, and **Quilt**.
+* **Content Browsers:** Direct API integration with **Modrinth** and **CurseForge** for 1-click modpack, mod, shader, and resource pack downloads.
+* **Smart Java Manager:** Automatic detection and provisioning of JDK releases (Java 8, 17, 21+) with custom JVM flags and GC tuning.
+* **Performance-Focused:** Lightweight footprint, minimal idle RAM consumption, and ultra-fast boot sequence.
 
 ---
 
 ### Feature Comparison
 
-| Feature | Official Launcher | Omexium |
-| :--- | :---: | :---: |
-| Ely.by Support (Skins & Capes) | ❌ | ✅ |
-| Microsoft Authentication | ✅ | ✅ |
-| Isolated Instances | ❌ | ✅ |
-| Built-in Mod Browser (Modrinth/CurseForge) | ❌ | ✅ |
-| Auto Java Dependency Installer | Partial | ✅ |
-| Optimized for Linux / macOS | ✅ | ✅ |
+| Feature | Official Launcher | Prism Launcher | Omexium |
+| :--- | :---: | :---: | :---: |
+| **Ely.by Skins & Capes** | ❌ | ❌ | ✅ |
+| **Microsoft Authentication** | ✅ | ✅ | ✅ |
+| **Isolated Instance Profiles** | ❌ | ✅ | ✅ |
+| **Native Modrinth / CurseForge** | ❌ | ✅ | ✅ |
+| **Automated Java Provisioning** | Partial | Manual Setup | ✅ Automated |
+| **Cross-Platform (x86_64 / ARM64)** | Limited | ✅ | ✅ Native |
 
 ---
 
-### License
+### Installation & Quick Start
 
-Distributed under the GNU General Public License v3.0 (GPL-3.0). See `LICENSE` for more information.
+**Linux (Universal)**
+
+Run via standalone AppImage, Flatpak, or build directly from source:
+
+```bash
+# AppImage Execution
+chmod +x Omexium-Launcher-x86_64.AppImage
+./Omexium-Launcher-x86_64.AppImage
